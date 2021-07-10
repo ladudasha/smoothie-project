@@ -1,0 +1,212 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	color: black;
+	overflow-x: hidden;
+}
+div, p, input, form,span,a,ul,li {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+ }
+p {
+	line-height: 1,6em;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.header {
+	background: rgb(77,190,254);
+	background: linear-gradient(133deg, rgba(77,190,254,1) 49%, rgba(55,143,217,1) 100%);
+	color: #fff;
+	padding-top: 60px;
+	padding-bottom: 140px;
+}
+.offer {
+ 	margin-top: 145px;
+ 	width: 570px;
+}
+.title span {
+ 	font-size: 50px;
+}
+.wrapper {
+	display: flex;
+	line-height: 1.6;
+	justify-content: space-between;
+	align-items: center;
+}
+.title {
+	font-size: 36px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+
+}
+.intro {
+	line-height: 1.6;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 35px;
+	font-size: 16px;
+	width: 400px;
+}
+.btn {
+	background: #ffd429;
+	color: black;
+	border-radius: 0px;
+	display: block;
+	width: 220px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	transition: all 0,5 s ease;
+}
+.btn:hover {
+	background: #f3c923;
+}
+.desktop {
+	margin-top: 36px;
+}
+.section-title {
+	font-size: 30px;
+	text-align: center;
+}
+.train {
+	padding-top: 105px;
+	padding-bottom: 120px;
+}
+.waiting {
+	display: flex;
+	justify-content:space-between;
+	margin-top: 70px;
+}
+.wait-title	{
+	font-size: :18px;
+	text-align: center;
+ 
+}
+.wait {
+	width: 300px;
+	background: url('../img/icon1.jpg') no-repeat center top;
+	padding-top: 100px;
+}
+.wait-travel {
+	width: 270px;
+	background: url('../img/icon2.jpg') no-repeat center top;
+}
+.clock {
+	padding: 80px 130px 30px 120px;
+}
+.wait-text {
+	margin-top: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 40;
+	text-align: center;
+}
+.wait-value {
+	background: url('../img/icon3.jpg') no-repeat center top;
+}
+.mail {
+	background: #ecf3f8;
+	padding-top:100px;
+	padding-bottom: 100px;
+}
+.form {
+margin-top: 60px;
+}
+.input {
+	display: flex;
+	width: 342px;
+	border: 1px solid #bbbbbb;
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+	height: 47px;
+	border-radius: 3px;
+	padding-left: 26px;
+	margin-bottom: 14px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.btn-form {
+	border: 0;
+	cursor: pointer;
+	margin-top: 15px;
+	width: 342px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.credits {
+	font-size: 14px;
+	color: #ffffff;
+	font-family: "Open Sans";
+	text-align: center;
+}
+.footer {
+	padding: 62px 0;
+	background-color: #164d7a;
+}
+.animated {
+	opacity: 0;
+}
+.red {
+	color: red;
+}
+
+@media screen and (max-width: 1200px) {
+.container {
+		width: 960px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.offer {
+		width: 100%;
+	}
+	.intro {
+		width: 100%;
+	}
+	.waiting {
+		flex-direction: column;
+	}
+	.wait {
+		width: auto;
+		margin-bottom: 60px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+.container {
+		width: 720px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+.container {
+		width: 540px;
+	}
+	.desktop {
+		width: 100%;
+
+	}
+	.btn-form {
+		margin-left: 0;
+		margin-top: 15px;
+		width: 100%;
+	}
+	.input {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+.container {
+		width: 90%;
+	}
+
+}
+
